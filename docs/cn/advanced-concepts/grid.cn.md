@@ -8,7 +8,7 @@
 
 在 node 的配置文件里，你需要定义 <b>"browserName"</b>，<b>"version"</b> 和 <b>"platform"</b>。
 基于这些参数，selenium grid 会将你的测试定向到正确的设备上去。你还需要配置你的 <b>host</b> 详细信息和
-<b>selenium grid</b> 的详细信息。你可以在 <a href="http://code.google.com/p/selenium/source/browse/java/server/src/org/openqa/grid/common/defaults/GridParameters.properties">这里</a> 找到详细的参数列表和描述信息。
+<b>selenium grid</b> 的详细信息。你可以在 <a href="https://github.com/SeleniumHQ/selenium/blob/jruby-174/java/server/src/org/openqa/grid/common/defaults/GridParameters.properties">这里</a> 找到详细的参数列表和描述信息。
 
 一旦你启动了 appium 服务器并且在 grid 里注册了信息，你会在 grid 控制台发现你的设备：
 
